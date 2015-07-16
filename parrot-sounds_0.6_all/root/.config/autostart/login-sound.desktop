@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=paplay /usr/share/sounds/parrot/login.ogg
+Name=Login Sound
+Comment=Start conky
+Icon=play
+X-MATE-Autostart-enabled=true
