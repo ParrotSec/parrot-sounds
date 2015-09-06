@@ -1,9 +1,11 @@
 Package: parrot-sounds
-Version: 0.6
+Version: 0.7
 Architecture: all
 Maintainer: Lorenzo EclipseSparl Faletra <eclipse@frozenbox.org>
 Installed-Size: 41
-Recommends: mate-settings-daemon-pulse, pulseaudio, pulseaudio-utils
+Recommends: mate-settings-daemon-pulse, pulseaudio, pulseaudio-utils, alsa-utils
+Includes: pulseaudio
+Replaces: pulseaudio
 Section: multimedia
 Priority: optional
 Description: Boot sound for Parrot Security OS
